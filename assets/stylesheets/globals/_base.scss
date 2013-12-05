@@ -100,8 +100,6 @@ hr {
       @include background($grad1);
       color:white;
       font-size: $font_size;
-      display: inline-block;
-      cursor:pointer;
       border: 1px solid $color4;
   }
 
