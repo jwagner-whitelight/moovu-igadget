@@ -1,7 +1,9 @@
 // Site-wide styles go here
 // What shouldn't go here
 //   - global declartive classes, mixins, or variables, that goes in -lib.scss
- 
+html {
+  max-width: 500px;
+}
 body {
   font-family: $font_family;
   font-size: $font_size;
