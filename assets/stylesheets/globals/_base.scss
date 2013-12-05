@@ -99,6 +99,9 @@ hr {
     @include background($grad1);
     color:white;
     font-size: $font_size;
+    a {
+      color: black;
+    }
   }
 
   .mw_bar2 {
