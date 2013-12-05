@@ -1,0 +1,37 @@
+<div data-ur-set="carousel" data-ur-id="MyFirstCarousel">
+  <span data-ur-carousel-component="count"> -- count -- </span>
+  <div data-ur-carousel-component="button" data-ur-carousel-button-type="prev">Prev</div>
+  <div data-ur-carousel-component="button" data-ur-carousel-button-type="next">Next</div>
+  <div data-ur-carousel-component='scroll_container'>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="1" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="2" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="3" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="4" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="5" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="6" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="7" /> </span>
+    <span data-ur-carousel-component='item'> <img src='http://placekitten.com/g/200/200' alt="8" /> </span>
+  </div>
+</div>
+
+<script data-keep="true" type="text/javascript" src="//mlocal.igadgetcommerce.com/_moovweb_local_assets_/javascript/main.js"></script>
+
+<div data-ur-set="carousel" data-ur-id="MyFirstCarousel" data-ur-translate3d="enabled" data-ur-speed="1.1" data-ur-fill="0" data-ur-clones="7" data-ur-autoscroll-delay="5000" data-ur-autoscroll-dir="next" data-ur-autoscroll="disabled" data-ur-center="disabled" data-ur-infinite="enabled" data-ur-touch="enabled" data-ur-vertical-scroll="enabled" data-ur-state="enabled">
+          <span data-ur-carousel-component="count">7 of 8</span>
+          <div data-ur-carousel-component="button" data-ur-carousel-button-type="prev">
+            Prev
+          </div>
+          <div data-ur-carousel-component="button" data-ur-carousel-button-type="next">
+            Next
+          </div>
+          <div data-ur-carousel-component="scroll_container" style="width: 1620px; -webkit-transform: translate3d(-648px, 0px, 0px);">
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample1.png" alt="1"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample2.png" alt="2"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample3.png" alt="3"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample4.png" alt="4"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample5.png" alt="5"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample6.png" alt="6"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="active"> <img src="../images/sample7.png" alt="7"> </span>
+            <span data-ur-carousel-component="item" data-ur-state="inactive"> <img src="../images/sample8.png" alt="8"> </span>
+          <span data-ur-carousel-component="item" data-ur-clone="0" data-ur-state="inactive"> <img src="../images/sample1.png" alt="1"> </span><span data-ur-carousel-component="item" data-ur-clone="1" data-ur-state="inactive"> <img src="../images/sample2.png" alt="2"> </span><span data-ur-carousel-component="item" data-ur-clone="2" data-ur-state="inactive"> <img src="../images/sample3.png" alt="3"> </span><span data-ur-carousel-component="item" data-ur-clone="3" data-ur-state="inactive"> <img src="../images/sample4.png" alt="4"> </span><span data-ur-carousel-component="item" data-ur-clone="4" data-ur-state="inactive"> <img src="../images/sample5.png" alt="5"> </span><span data-ur-carousel-component="item" data-ur-clone="5" data-ur-state="inactive"> <img src="../images/sample6.png" alt="6"> </span><span data-ur-carousel-component="item" data-ur-clone="6" data-ur-state="inactive"> <img src="../images/sample7.png" alt="7"> </span></div>
+        </div>

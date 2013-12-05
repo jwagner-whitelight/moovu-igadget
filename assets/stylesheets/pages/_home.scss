@@ -1,5 +1,19 @@
 // Every page should have a class on the body
 // Scope that in each file at the start
-._home {
+.mw_home {
+
+  .Block {
+    @include block1;
+
+  }
+
   
+  .ProductList {
+
+    @include productlist1;
+    .ProductActionAdd {
+    	@include btn2;
+    }
+  }
+
 }

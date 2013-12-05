@@ -1,0 +1,10 @@
+.mw_category {
+ 
+  .Block {
+    @include block1;
+  }
+
+  .ProductList {
+    @include productlist1
+  }
+}

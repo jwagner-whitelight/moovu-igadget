@@ -1,0 +1,28 @@
+// colors
+$color1: #B03B01; // header color
+$color2: #075899; // link color
+$color3: #f1f0f0; // red-ish site color
+$color4: #6a1b00; // dark burgandy color
+$color5: #FCFABB; // light yellow background
+$color6: #000000;
+$color7: #852201;
+$color8: #F0F0F0; // very light grey
+$color9: #ADADAD; // light grey
+$font_family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+$font_size: 14px;
+$border1: 1px solid red;
+$border2: 1px solid black;
+$spacing: 5px;
+$grad1: linear-gradient(top, $color7, $color4);
+$box_shadow:2px 2px 2px #000;
+$text_shadow: 0 -1px rgba(0,0,0,0.9);
+$h3_size: 14px;
+$link_color: $color2;
+$text_color: $color3;
+$buttonheight: 40px;
+
+// Vertical Rhythm
+$base-font-size: 13px;
+$base-line-height: 24px;
+@include establish-baseline();
+

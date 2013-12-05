@@ -1,3 +1,6 @@
-footer._footer {
-
+#Footer {
+	@include background(linear-gradient(top, #852201, #6a1b00));
+	font-size: 9px;
+	color: white;
+	text-align:center;
 }

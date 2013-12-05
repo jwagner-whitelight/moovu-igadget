@@ -1,5 +1,10 @@
-# $("./body") {
-#   insert_bottom("footer", class: "_footer") {
-#     Move stuff here
-#   }
-# }
+$(".//div[@id='Footer']") {
+	$(".//a") {
+		remove();
+	}
+	$("p") {
+		inner() {
+			replace(text(), "All prices are in USD. <br> Copyright 2013 iGadgetCommerce.")
+		}
+	}
+}

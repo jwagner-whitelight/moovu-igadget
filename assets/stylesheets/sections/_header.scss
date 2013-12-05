@@ -1,3 +1,127 @@
-header._header {
-  
+#Header {
+  .Block {
+    @include block1;
+  }  
+  border-top: 1px solid black;
+  min-width:360px;
+  #Logo {
+    display: block;
+    zoom:1;
+    @include background(linear-gradient(#C14102 0, shade(#C14102, 20%) 100%));
+    h1 {
+      margin: 0;
+      padding: 10px;
+      a {
+        font-size: 22px;
+        text-shadow: 0 -1px rgba(0,0,0,0.9);
+        color: white;
+      }
+    }
+    #LogoContainer {
+      display:block;
+      float:left;
+      h1 {
+        margin-top:10px;
+        margin-left:10px;
+        margin-bottom:17px;
+      }
+    }
+
+    :before {
+      content:"";
+      display:table;
+    }
+    
+    :after {
+      content:"";
+      display:table;
+      clear:both;
+    }
+    #TopMenu {
+      ul {
+        float:right;
+        margin-right:10px;
+        .First a {
+          @include sprites-user;
+          width:44px;
+          height:39px;
+          display:block;
+          line-height: 0; 
+          font-size: 0;
+          color: transparent;
+          margin: 0;
+          padding: 0px;
+
+          li {
+            text-indent:10%;
+            border-width: 1px 0 0 0;
+            border-spacing: 0;
+            border-style: solid;
+            list-style: none;
+            margin: 0;
+            padding: 5px;
+              .mw_arrow {
+                float:right;
+                @include sprites-menu_go;
+              }
+          }
+        }
+        .CartLink a {
+          @include sprites-cart;
+          width:44px;
+          height:39px;
+          display:block;
+          line-height: 0; 
+          font-size: 0;
+          color: transparent;
+        }
+      }
+      li {
+        float:right;
+        margin-right:10px;
+      }
+    }
+  }
+  .mw_header_bottom {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    @include background(linear-gradient(top, #852201, #6a1b00));
+    .mw_search {
+      display: inline-block;
+      width: 75%;
+      position: relative;
+      input[type='text']{
+        border: 1px solid black;
+        background-color: #f1f0f0;
+        font-size: 13px;
+        padding: 4px;
+        height: 23px;
+        margin: 0;
+        width: 100%;
+        display: block;
+      }
+      .mw_search_btn {
+        height: 33px;
+        position: absolute;
+        top: 0;
+        right: -13px;
+        .Button {
+          width: 40px;
+          height: 33px;
+        }
+      }
+    }
+    .mw_menu_btn {
+      float: right;
+      padding-right: 20px;
+      display: block;
+      &[data-ur-state="enabled"] span{
+        @extend .sprites-menu-on;
+      }
+    }
+  }
+  .Block {
+    @include block1;
+  }
 }
