@@ -95,14 +95,10 @@ hr {
     background: none repeat scroll 0 0 #FFFFFF;
     position: relative;
     z-index: 99999;
-    border-radius:0px;
-    -webkit-box-shadow: 
-        0 0px 0 #ccc,
-        0 0px #fff inset;
+    border-radius:2px;
     @include background($grad1);
     color:white;
     font-size: $font_size;
-    border: 1px solid $color4;
   }
 
   .mw_bar2 {
